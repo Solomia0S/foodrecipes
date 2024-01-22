@@ -1,0 +1,103 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: 		#ACE1AF;
+}
+
+.cl:hover{
+  background-color: #a5c0d9;
+  transition: 5s;
+}
+
+.cl2:hover{
+  background-color: #55c37a;
+  transition: 5s;
+}
+
+.cl3:hover{
+  background-color: #dbb3b3;
+  transition: 5s;
+}
+
+h1{
+  text-align: center;
+  font-size: 70px;
+  font-family: Arial;
+  color: white;
+}
+
+h1:hover{
+  font-size: 75px;
+  text-shadow: 10px 10px 15px black, 6px 6px 0px green;
+  transition: 3s linear;
+}
+
+h2{
+  text-align: left;
+  font-size: 50px;
+  font-family: Arial;
+  color: green;
+  transition: white 0.5s;
+}
+
+img{
+  justify-content: right;
+  border: 10px, black;
+  border-radius: 15px;
+}
+
+.c1{
+  display: flex;
+  justify-content: center;
+}
+
+.c1:hover{
+  transform: translateX(200px);
+  transition: 2s;
+}
+
+.pic1{
+  float: right;
+}
+
+.pic2{
+  margin-left: 700px;
+  width: 200px;
+  height: 200px;
+}
+
+.pic3{
+  margin-left: 600px;
+  width: 200px;
+  height: 200px;
+}
+
+h3{
+  text-align: left;
+  font-size: 35px;
+  font-family: Arial;
+  color: white;
+}
+
+h4{
+  text-align: left;
+  font-size: 25px;
+  font-family: Arial;
+  color: black;
+}
+
+p{
+  text-align: left;
+  font-size: 18px;
+  font-family: Arial;
+  color: black;
+}
+
+ul{
+  font-size: 20px;
+  font-family: Arial;
+  color: green
+}
